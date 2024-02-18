@@ -1,0 +1,73 @@
+/* Resetting default margin and padding */
+body, h1,h2,h3, p {
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center !important;
+    padding-bottom: 30px !important;
+}
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/015/412/592/small/rain-on-city-background-rainy-day-urban-landscape-in-rainy-weather-illustration-in-flat-style-vector.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Styling for the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling for the card */
+.card {
+    background-color: #f0be1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.card-info{
+    padding: 5px; 
+    text-decoration: underline;
+}
+
+/* Styling for card content */
+.card-content {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+#max{
+    text-align: center;
+    font-size: 25px;
+}
+#min{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* Styling for card weather */
+.card-weather {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Styling for card weather icon */
+.card-weather-icon {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Styling for card weather description */
+.card-weather-dec {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
